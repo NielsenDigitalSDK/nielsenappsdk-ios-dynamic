@@ -1,5 +1,16 @@
 Nielsen TVOS App SDK Release Notes
 
+Release 7.0.0.0 (9-6-2019)
+- Support for CDN based config.
+- Support for Market based EMM UAID pings.
+- Changes required for proper DCR Static measurement in multi-instance/multiple appid's case.
+- Fixes for OTT synchronization issues between iOS and Android platforms.
+- Fixes for EV data parameters in few scenarios.
+- Fixes for DCR Static product behaviour in background app refresh and background fetch scenarios.
+- DCR Ad reporting improvements.
+- Fixes and improvements for the SDK console log messages.
+- Other enhancements and fixes.
+s
 Release 6.2.0.0 (2-4-2019)
 - Location measurement has been removed from the SDK code.
 - Location frameworks were there previously but disabled, now it’s fully removed to avoid confusion from noticing it being included at all. Code was there because SDK used to collect. Then the function was disabled. Even having it there, clients used to be like "why are you having that framework there?" It raised privacy/security concerns and suspicion.
