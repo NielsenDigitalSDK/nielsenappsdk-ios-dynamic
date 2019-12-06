@@ -1,5 +1,15 @@
 VRI App SDK Release Notes
 
+Release 7.1.0.0 (12-9-2019)
+- Removed usage of deprecated class UIWebView 
+- Offline viewing measurement enhancements 
+- Fixed deadlock on SDK shutdown 
+- Revisited precedence logic for sfcode parameter
+- Fix for DCR individual ad pings parameters after channel change 
+- Using default value for incorrect adModel parameter
+- Defaulting isLive parameter value on channel change 
+- Other fixes and enhancements.
+
 Release 6.2.0.0 (2-4-2019)
 - Location measurement has been removed from the SDK code.
 - Location frameworks were there previously but disabled, now it’s fully removed to avoid confusion from noticing it being included at all. Code was there because SDK used to collect. Then the function was disabled. Even having it there, clients used to be like "why are you having that framework there?" It raised privacy/security concerns and suspicion.
