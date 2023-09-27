@@ -1,4 +1,4 @@
-Nielsen App SDK Release Notes  
+Nielsen TVOS App SDK Release Notes  
 For integration help, visit https://engineeringportal.nielsen.com/docs/DCR_&_DTVR
 
 Release 9.2.0.0 (9-27-2023) 
